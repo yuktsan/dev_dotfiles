@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+
+# bootstrap installs things.
+
+DOTFILES_ROOT=$(pwd -P)
+
+set -e
+
+echo ''
+
+info () {
+  printf "\r  [ \033[00;34m..\033[0m ] $1\n"
+}
+
+user () {
+  printf "\r  [ \033[0;33m??\033[0m ] $1\n"
+}
+
+install_ () {
+  local overwrite_all=false backup_all=false skip_all=false
+
+  for src in $(find -H "$DOTFILES_ROOT" -maxdepth 2 -name '*.sh' -not -path '*.git*')
+  do
+    dst="$HOME/.$(basename "${src%.*}")"
+    "$src"
+  done
+}
+
+
+
+
+  info 'installing ...'
+
+install_
