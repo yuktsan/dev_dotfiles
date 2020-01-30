@@ -11,4 +11,4 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 
 - Install 
 -
-$ brew "wget"
+$ brew install wget
