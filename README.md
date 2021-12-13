@@ -9,6 +9,10 @@ $ xcode-select --install
 -
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-- Install 
+- Install oh my zsh
 -
-$ brew install wget
+$ ./homebrew/install.sh
+
+- Install oh my zsh
+-
+$ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
