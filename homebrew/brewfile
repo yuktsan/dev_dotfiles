@@ -1,3 +1,4 @@
+brew install wget
 brew install awscli
 brew install brotli
 brew install c-ares
@@ -27,7 +28,6 @@ brew install readline
 brew install serverless
 brew install six
 brew install sqlite
-brew install wget
 brew install xz
 brew install yarn
 brew install zsh
