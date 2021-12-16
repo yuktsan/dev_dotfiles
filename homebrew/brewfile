@@ -18,7 +18,6 @@ brew install libuv
 brew install mpdecimal
 brew install ncurses
 brew install nghttp2
-brew install node
 brew install nvm
 brew install openssl@1.1
 brew install pcre
