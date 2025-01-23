@@ -11,11 +11,7 @@ XCode developer tools are required for initial homebrew installation.
 
 - Install oh my zsh
 -
-`./homebrew/install.sh`
-
-- Install oh my zsh
--
-`sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+`brew install zsh`
 
 - Set up NVM
 - `$ mkdir ~/.nvm`
